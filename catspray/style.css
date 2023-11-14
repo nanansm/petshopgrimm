@@ -2,9 +2,6 @@
 .clikbtn {
   background: red none repeat scroll 0 0;
   border-radius: 4px;
-  box-shadow: 0 0 20px 0 rgba(255, 95, 109, 0.4);
-  -webkit-box-shadow: 0 0 20px 0 rgba(255, 95, 109, 0.4);
-  -moz-box-shadow: 0 0 20px 0 rgba(255, 95, 109, 0.4);
   color: #fff;
   display: inline-block;
   font-size: 16px;
@@ -16,6 +13,7 @@
   margin-top: 25px;
   width: 100%;
   text-align: center;
+  box-shadow: 5px 5px 0px #000000;
 
 }
 
@@ -142,14 +140,14 @@ header {
 }
 .slider h1 {
   color: #fff;
-  text-shadow: 2px 2px #000000;
+  text-shadow: 2px 2px 5px #000000;
   margin-bottom: 20px;
   text-transform: capitalize;
   padding-top: 180px;
 }
 .slider p {
   color: #fff;
-  text-shadow: 2px 1px #000000;
+  text-shadow: 2px 1px 10px #000000;
   font-size: 18px;
   margin: 0 0 35px;
   padding-right: 28%;
@@ -171,9 +169,7 @@ header {
   text-decoration: none;
   text-transform: uppercase;
   transition: all 0.3s ease 0s;
-  -webkit-box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.1);
-  -moz-box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.1);
-  box-shadow: 0px 0px 30px 3px rgba(0,0,0,0.1);
+  box-shadow: 5px 8px 10px #000000;
 }
 .hero-btn:hover, .about-content > .hero-btn:hover {
   background-color: #07c30f;
@@ -275,6 +271,7 @@ header {
   margin-top: 25px;
   width: 100%;
   text-align: center;
+  box-shadow: 5px 8px 10px #000000;
 }
 .about-content > .hero-btn i {
   margin-right: 5px;
